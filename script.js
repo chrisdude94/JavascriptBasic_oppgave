@@ -19,11 +19,12 @@ console.log(checkOddOrEven(2));
 console.log(checkOddOrEven(5));
 
 
+
 /*
 2.
 
 Make a variable called userTitle and set the content equal to "Mr." if userMale is true,
-or to "Mrs." if userMale is false. Use the TERNARY conditional to do this:
+or to "Mrs." if userMale is false. Use the TERNARY conditional to do this aksdjasid:
 
 const variable = statement ? "this if true" : "this if not true"
 
