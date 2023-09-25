@@ -9,25 +9,14 @@ Console log the function call a few times with both even and odd numbers to
 show that it's working.
 */
 
-/*Console log the function call a few times with both even and odd numbers to
-show that it's working.
-*/
 
-/*const number = ("12");
 
-if(number % 2 == 0) {
-    console.log("The number is even.");
-} else {
-    console.log("The number is odd");
-} */
-
-const isEven = num => num % 2 === 0;
-
-console.log(isEven(3));
-console.log(isEven(32));
-console.log(isEven(1));
-console.log(isEven(0));
-
+function checkOddOrEven(number) {
+    return (number | 1) === number ? 'Odd' : 'Even';
+}
+  
+console.log(checkOddOrEven(2));
+console.log(checkOddOrEven(5));
 
 
 /*
@@ -42,6 +31,7 @@ Try changing userMale to both true and false and console.log your new variable,
 to see that your conditional is working.
 */
 
+let userTitle = "Mr.";
 
 /*
 3.
