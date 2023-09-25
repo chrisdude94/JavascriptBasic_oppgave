@@ -31,7 +31,8 @@ Try changing userMale to both true and false and console.log your new variable,
 to see that your conditional is working.
 */
 
-let userTitle = "Mr.";
+let userTitle = (male > 0) ? true : false;
+
 
 /*
 3.
